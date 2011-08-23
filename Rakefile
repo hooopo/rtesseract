@@ -4,17 +4,18 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "rtesseract"
+    gem.name = "mini_tesseract"
     gem.version = '0.0.7'
     gem.summary = "Ruby library for working with the Tesseract OCR."
     gem.description = "Ruby library for working with the Tesseract OCR."
-    gem.email = "dannnylo@gmail.com"
-    gem.homepage = "http://github.com/dannnylo/rtesseract"
-    gem.authors = ["Danilo Jeremias da Silva"]
+    gem.email = "hoooopo@gmail.com"
+    gem.homepage = "http://github.com/hooopo/rtesseract"
+    gem.authors = ["Danilo Jeremias da Silva", "Hooopo"]
     gem.add_development_dependency "jeweler", ">=1.4.0"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
 
     gem.add_runtime_dependency "rmagick", '>= 2.10.1'
+    gem.add_runtime_dependency "mini_magick", '~> 3.0'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
