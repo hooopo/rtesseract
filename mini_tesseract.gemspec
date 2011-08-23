@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "lib/rtesseract.rb",
     "lib/rtesseract/errors.rb",
     "lib/rtesseract/mixed.rb",
+    "mini_tesseract.gemspec",
     "rtesseract.gemspec",
     "test/helper.rb",
     "test/images/mixed.tif",
